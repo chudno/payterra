@@ -1,0 +1,333 @@
+:root {
+    --bg-color: #1B120C;
+    --bg-grey: #D9D9D9;
+    --accent-color: #E48011;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lupio', sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    margin: 0 0;
+    background: var(--bg-color);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.fix {
+    width: 1740px;
+    margin: 0 auto;
+}
+
+
+/* Accent Button*/
+.accent-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    text-decoration: none;
+    min-width: 316px;
+}
+
+.accent-btn .text {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 30px;
+    background: var(--accent-color);
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.accent-btn .icon {
+    margin-left: 2px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent-color);
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+}
+
+.accent-btn .icon path {
+    transition: all .2s ease-in-out;
+}
+
+.accent-btn:hover .text,
+.accent-btn:hover .icon {
+    cursor: pointer;
+    background: white;
+    color: var(--accent-color);
+}
+
+.accent-btn:hover .icon path {
+    stroke: var(--accent-color);
+}
+
+/* Shadow Border */
+.sh-border {
+    box-shadow: -1px -1px 1px 0px rgba(255, 255, 255, 0.25);
+}
+
+.sh-border.sh-bottom {
+    box-shadow: -1px 1px 1px 0px rgba(255, 255, 255, 0.25);
+}
+
+/* Bg Gradient Blur */
+.bg-gradient {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 100%), rgba(0,0,0,0.1);
+}
+
+/* Border Radius */
+.border-radius-s {
+    border-radius: 20px;
+}
+
+/* Font Size */
+h1 {
+    font-size: 78px;
+    font-weight: 400;
+    color: white;
+}
+.font-title {
+    font-size: 58px;
+    line-height: 110%;
+    color: white;
+    font-weight: 400;
+}
+.font-heading {
+    font-size: 36px;
+    line-height: 110%;
+    color: white;
+    font-weight: 400;
+}
+.font-text {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    line-height: 130%;
+}
+/*====================== Content ======================*/
+
+/*====================== Header =======================*/
+header {
+    position: absolute;
+    top: 48px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    /*background: rgba(0,255,0,0.1);*/
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo {
+    width: 207px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header-menu_wrapper {
+    margin-left: 417px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-menu_wrapper > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 5px;
+    border: rgba(255,255,255,0.5) solid 1px;
+    border-radius: 100px;
+    height: 100%;
+}
+
+.header-menu_wrapper > ul > li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu_wrapper > ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    transition: all .2s ease-in-out;
+    border-radius: 100px;
+}
+
+.header-menu_wrapper > ul > li > a.current {
+    background: white;
+    color: black;
+}
+
+.header-menu_wrapper > ul > li > a:hover {
+    background: white;
+    color: black;
+}
+
+.header-menu_burger,
+.header-menu_close,
+.header-logo_mobile,
+.header-menu_mobile {
+    display: none;
+}
+
+/*====================== Header =======================*/
+
+/*====================== footer =======================*/
+footer {
+    width: 100%;
+    padding: 60px 0;
+    background: linear-gradient(160deg, var(--bg-color) 31%, var(--accent-color) 100%);
+}
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.footer-top {
+    flex: 1 1 45%;
+    width: 100%;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.footer-address {
+    color: white;
+    opacity: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    max-width: 600px;
+    width: auto;
+}
+
+.footer-logo {
+    max-width: 600px;
+    width: auto;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    min-width: 900px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.footer-email_sign {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 130%;
+}
+
+.footer-email_is {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.footer-bottom {
+    width: 100%;
+}
+
+.footer-copyright {
+    opacity: 50%;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-menu_link {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    text-decoration:none;
+    transition: all .2s ease-in-out;
+    margin-top: 50px;
+}
+
+.footer-menu_link:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+/*====================== footer =======================*/

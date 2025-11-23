@@ -1,0 +1,381 @@
+/*============= Main Section ==============*/
+.main-section {
+    width: 100%;
+    background: url(../img/api-hero-bg.jpg), linear-gradient(to right, var(--bg-color) 50%, var(--accent-color) 50% );
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: center center;
+}
+
+.main-section_wrapper {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 353px;
+    padding-bottom: 104px;
+}
+
+.main-section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+    width: 840px;
+}
+
+.main-section_text {
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+}
+
+.main-section_icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.main-section_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 0;
+    display: block;
+    box-shadow: inset 0 -1px 10px 0 rgba(255,255,255,0.25);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section_icon svg {
+    width: 30px;
+}
+
+.main-section_icon-text {
+    width: 855px;
+    opacity: 0.5;
+}
+
+/*============= Main Section ==============*/
+
+/*====================== Blocks Masonry =======================*/
+
+.msnry-api {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.msnry-api_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+    z-index: 0;
+    background: url(../img/radial_bg_compress.png) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*.msnry-wrapper:before {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 1177px;*/
+/*    height: 363px;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    background: url(../img/radial_bg_compress.png) center center;*/
+/*    !*border-radius: 50%;*!*/
+/*    !*background-image: radial-gradient(circle, #E48011 0%, rgba(0,0,0,0) 100%);*!*/
+/*    !*margin-top: -181.5px;*!*/
+/*    !*margin-left: -588.5px;*!*/
+/*}*/
+
+.msnry-api_block {
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /*border-radius: 20px;*/
+    /*background: rgba(0,0,0,0.1);*/
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    width: 566px;
+    height: 400px;
+    gap: 20px;
+    /*box-shadow: -1px -1px 1px 0px rgba(255, 255, 255, 0.25);*/
+}
+
+.msnry-api_block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 100%), rgba(0,0,0,0.1);
+    /*filter: blur(100px);*/
+    backdrop-filter: blur(100px);
+    z-index: -1;
+}
+
+.msnry-api_block_circle {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    z-index: 0;
+    display: block;
+    box-shadow: inset 0 -1px 10px 0 rgba(255,255,255,0.25);
+    background: url(../img/check.svg) no-repeat;
+    background-position: center center;
+    background-size: 19px 15px;
+    backdrop-filter: blur(100px);
+}
+
+.msnry-api_block_circle:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background: white;
+    opacity: 0.03;
+    /*filter: blur(10px);*/
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+/*.msnry-block:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 30px;*/
+/*    left: 30px;*/
+/*    width: 54px;*/
+/*    height: 54px;*/
+/*    border-radius: 50%;*/
+/*    z-index: 5;*/
+/*    filter: blur(10px);*/
+/*}*/
+
+.msnry-api_block:first-child,
+.msnry-api_block:nth-child(3) {
+    margin-top: 200px;
+}
+
+.msnry-api_block:nth-child(4) {
+    margin-top: -200px;
+}
+
+.msnry-api_block_heading,
+.msnry-api_block_text {
+    color: white;
+}
+
+.msnry-api_block_heading {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.msnry-api_block_text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*====================== Blocks Masonry =======================*/
+
+/*====================== Analytics API =======================*/
+.analytics-api {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.analytics-api_wrapper {
+    width: 100%;
+    padding: 31px 58px 29px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-api_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 712px;
+    height: 100%;
+}
+
+.analytics-api_chart-sales {
+    margin-left: 15px;
+}
+
+.analytics-api_chart-dataanalytics {
+    margin-left: 41px;
+}
+
+.analytics-api_chart-revenue {
+    margin-top: 28px;
+}
+
+.analytics-api_chart-daily {
+    margin-left: 32px;
+    margin-top: 26px;
+}
+
+.analytics-api_chart-sales,
+.analytics-api_chart-dataanalytics,
+.analytics-api_chart-revenue,
+.analytics-api_chart-daily {
+    padding: 20px;
+}
+
+.analytics-sales_vector {
+    margin-top: 15px;
+}
+
+.analytics-sales_vector,
+.analytics-sales_vector svg {
+    width: 222px;
+}
+
+.analytics-revenue_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-sales_sign {
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
+}
+
+.analytics-sales_revenue {
+    margin-top: 24px;
+}
+
+.analytics-sales_revenue,
+.analytics-sales_revenue svg {
+    width: 238px;
+}
+
+.analytics-api_chart-daily {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    align-self: flex-start
+}
+
+.analytics-sales_number {
+    font-size: 50px;
+    line-height: 110%;
+    font-weight: 400;
+    color: white;
+    margin-top: 38px;
+}
+
+.analytics-api_right {
+    width: 794px;
+}
+
+.analytics-api_right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.analytics-api_btn {
+    margin-top: 145px;
+}
+
+.accent-btn.analytics-api_btn .text {
+    flex-grow: 0;
+}
+
+
+/*====================== Analytics API =======================*/
+
+/*====================== Developer =======================*/
+.developer {
+    width: 100%;
+}
+.developer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 0 120px 0;
+}
+
+.developer-grid {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: 1;
+    gap: 20px;
+}
+
+.dev-grid_item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.developer-grid_item {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    width: 420px;
+}
+
+.dev-grid_item-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 0;
+    box-shadow: inset 0 -1px 10px 0 rgba(255,255,255,0.25);
+    position: relative;
+}
+
+/*====================== Developer =======================*/

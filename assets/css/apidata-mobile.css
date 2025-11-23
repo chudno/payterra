@@ -1,0 +1,292 @@
+@media (max-width: 1800px){
+    .msnry-api_block:first-child,
+    .msnry-api_block:nth-child(3),
+    .msnry-api_block:nth-child(4){
+        margin-top: 0px;
+    }
+
+    .msnry-api_block_heading {
+        font-size: 28px;
+    }
+    .msnry-api_block_text {
+        font-size: 16px;
+    }
+
+    .msnry-api_block {
+        width: 48%;
+    }
+
+    .developer-grid {
+        flex-wrap: wrap;
+    }
+
+    .developer-grid_item {
+        width: 48%;
+    }
+
+}
+
+@media ( max-width: 1740px ){
+    .analytics-api_left {
+        order: 2;
+        width: 100%;
+        gap: 20px;
+    }
+    .analytics-api_right {
+        order: 1;
+        width: 100%;
+    }
+
+    .analytics-api_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 60px;
+    }
+
+    .analytics-api_btn {
+        margin-top: 45px;
+    }
+
+    .analytics-api_chart-sales {
+        margin-left: 0px;
+    }
+
+    .analytics-api_chart-revenue {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .analytics-api_chart-dataanalytics {
+        margin-left: 0px;
+    }
+
+    .analytics-api_chart-daily {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .analytics-sales_revenue,
+    .analytics-sales_revenue svg {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 1340px ){
+    .analytics-api_chart-dataanalytics {
+        margin-right: 30%;
+    }
+}
+
+@media (max-width: 1260px) {
+    /*=========== Masonry =============*/
+    .msnry-api_block {
+        width: 46vw;
+        height: auto;
+        padding-top: 12vw;
+    }
+    .msnry-api_wrapper {
+        background-size: 100% 150%;
+    }
+    /*=========== Masonry =============*/
+}
+
+@media (max-width: 1200px){
+    .main-section {
+        background: url(../img/api-bg-3x.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 50% 70%;
+    }
+    .main-section_wrapper {
+        height: auto;
+        padding-top: 34vw;
+        padding-bottom: 15.3vw;
+    }
+
+    .main-section_content h1 {
+        font-size:42px;
+        width: 100%;
+    }
+
+    .main-section_content {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .main-section_text {
+        font-size: 20px;
+    }
+
+    .main-section_icon-wrapper {
+        margin-top: 122.5vw;
+    }
+
+    .main-section_icon-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1170px){
+
+    .msnry-api_block {
+        width: 100%;
+    }
+
+    .analytics-api_right-text br {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px){
+    .main-section_content h1 br {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .msnry-api_block {
+        width: 100%;
+        padding-top: 24.6vw;
+        gap: 16px;
+    }
+    .analytics-api_wrapper {
+        padding: 16px 12px 16px 16px;
+        gap: 30px;
+    }
+
+    .analytics-api_right-content {
+        gap: 10px;
+    }
+
+    .analytics-api_btn {
+        margin-top: 20px;
+    }
+
+    .accent-btn.analytics-api_btn .text {
+        padding: 14px 30px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .accent-btn.analytics-api_btn .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .accent-btn.analytics-api_btn .icon svg {
+        width: 19px;
+    }
+
+    .analytics-api_left .font-text {
+        font-size: 2.5vw;
+    }
+
+    .analytics-sales_vector {
+        margin-top: 7px;
+    }
+
+    .analytics-sales_vector,
+    .analytics-sales_vector svg {
+        width: 100%;
+        height: auto;
+        /*width: 27vw;*/
+    }
+
+    .analytics-api_chart-dataanalytics {
+        margin-right: 0px;
+        margin-left: 4.5vw;
+    }
+
+    .analytics-api_chart-sales {
+        margin-left: 3vw;
+        width: 32vw;
+        padding: 11px 9px 12px 9px;
+    }
+
+    .analytics-api_chart-dataanalytics {
+        width: 45vw;
+        padding: 2.3vw;
+    }
+
+    .analytics-sales_dataanalytics,
+    .analytics-sales_dataanalytics svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .analytics-api_left {
+        gap: 0px;
+    }
+
+    .analytics-api_chart-revenue,
+    .analytics-api_chart-daily {
+        margin-top: 3vw;
+        padding: 2.3vw;
+    }
+
+    .analytics-api_chart-daily {
+        margin-left: 3.8vw;
+    }
+
+    .analytics-revenue_line {
+        width: 100%;
+    }
+
+    .developer-grid_item {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .developer-wrapper h2 br {
+        display:none;
+    }
+    .developer-grid {
+        gap: 10px;
+        margin-top: 60px;
+    }
+
+    .dev-grid_item-content {
+        gap: 10px;
+    }
+
+    .dev-grid_item-heading.font-heading {
+        font-size: 28px;
+    }
+
+    .developer-wrapper {
+        padding: 30px 0;
+    }
+
+    .analytics-api {
+        padding: 30px 0;
+    }
+
+    .msnry-api {
+        padding: 60px 0 30px 0;
+    }
+
+}
+
+@media (max-width: 560px){
+    .msnry-api_block {
+        width: 100%;
+        padding-top: 33vw;
+        gap: 16px;
+    }
+    .main-section {
+        background: url(../img/api-bg-1-5x.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: 0 0;
+    }
+}
+
+@media (max-width: 420px){}
+
+@media (max-width: 390px){}

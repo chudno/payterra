@@ -1,0 +1,348 @@
+@media (max-width: 1800px){
+    .experience_wrapper {
+        background-position: center -5vw;
+    }
+    .msnry-block:first-child, .msnry-block:nth-child(3),
+    .msnry-block:nth-child(4){
+        margin-top: 0px;
+    }
+
+    .msnry-block_heading {
+        font-size: 28px;
+    }
+    .msnry-block_text {
+        font-size: 16px;
+    }
+    .games-grid {
+        flex-wrap: wrap;
+    }
+    .games-box {
+        width: 49%;
+        flex: 1 1 49%;
+    }
+}
+
+@media ( max-width: 1340px ){
+    .analytics-wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .analytics-left,
+    .analytics-right {
+        width: 100%;
+    }
+
+    .analytics-left_btn {
+        min-width: auto;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .analytics-right {
+        padding: 40px 39px;
+    }
+
+    .analytics-wrapper:before {
+        width: 140%;
+        height: 140%;
+        left: -20%;
+        bottom: -50%;
+        top: auto;
+        background-size: 140% 140%;
+        transform: rotate(0) translateX(0) translateY(0)
+    }
+
+    .power-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .power-bottom {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .power-box {
+        width: 49%;
+        flex: auto 0;
+    }
+
+    .power-box:last-child {
+        width: 100%;
+    }
+
+    .power-wrapper:before {
+        width: 100%;
+        height: 50vw;
+        bottom: -10vw;
+        transform: rotate(-12deg);
+        transform-origin: 50% 50%;
+        background-size: 120% 120%;
+    }
+}
+
+@media (max-width: 1260px) {
+    /*=========== Masonry =============*/
+    .msnry-block {
+        width: 46vw;
+        height: auto;
+        padding-top: 12vw;
+    }
+    .msnry-wrapper {
+        background-size: 100% 150%;
+    }
+    /*=========== Masonry =============*/
+}
+
+@media (max-width: 1200px){
+    .experience_wrapper {
+        background-position: center -8vw;
+        background-size: auto 140%;
+    }
+}
+
+@media (max-width: 1170px){
+
+    /*=========== First screen =============*/
+    .first-screen {
+        background: url(../img/home-screen-1170.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .first-screen_wrapper {
+        padding-top: 74vw;
+        padding-bottom: 60px;
+    }
+
+    .first-screen_content h1 {
+        font-size: 42px;
+    }
+
+    .first-screen_description {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+
+    .first-screen_btn {
+        margin-top: 20px;
+    }
+
+    .first-screen_users {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .first-screen_users-text {
+        margin-left: 0px;
+    }
+
+    .first-screen_heading {
+        font-size: 36px;
+    }
+
+    .first-screen_text {
+        width: auto;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    /*=========== First screen =============*/
+
+    /*=========== Experience =============*/
+    .experience {
+        padding: 60px 0 60px 0;
+    }
+    .experience_wrapper h2 {
+        width: auto;
+        font-size: 42px;
+        line-height: 100%;
+    }
+    .experience-sign {
+        margin-top: 24px;
+        width: auto;
+        font-size: 16px;
+    }
+    .experience-cards__wrapper {
+        margin-top: 40px;
+        padding-bottom: 20vw;
+    }
+    #experience-cards {
+        width: 120vw;
+        margin-left: -60vw;
+    }
+    .experience-cards_carousel {
+        margin-top: 36.2vw;
+        gap: 0;
+    }
+    .experience-cards_buttons {
+        margin-top: 4.2vw;
+    }
+    .experience_wrapper {
+        background-position: center -28vw;
+        background-size: auto 170%;
+    }
+    /*=========== Experience =============*/
+
+    /*=========== Analytics =============*/
+    .analytics-wrapper {
+        height: auto;
+    }
+    .analytics-text {
+        width: 100%;
+    }
+    .analytics-chart {
+        width: 66vw;
+        height: 68.9vw;
+    }
+    .analytics-chart:before {
+        font-size: 9vw;
+    }
+    /*=========== Analytics =============*/
+    /*=========== Power =============*/
+    .power-top h2 {
+        width: 100%;
+    }
+
+    .power-top_sign {
+        width: 100%;
+    }
+    .power-top,
+    .power-bottom {
+        flex-wrap: wrap;
+    }
+    /*=========== Power =============*/
+
+    /*=========== Games =============*/
+    .games-box:nth-child(2n) .games-box_img.sh-border.sh-bottom {
+        order: 1;
+    }
+    .games-box_content {
+        padding-top: 0px;
+    }
+    /*=========== Games =============*/
+
+}
+
+@media (max-width: 991px){
+    .first-screen_content h1 {
+        width: 100%;
+    }
+    .fix {
+        padding: 0 10px;
+    }
+    .power-box {
+        width: 100%;
+        flex: auto 0;
+    }
+
+    .power-box:last-child {
+        width: 100%;
+    }
+    .power-wrapper:before {
+        width: 140%;
+        height: 90vw;
+        bottom: 10vw;
+        right: -20%;
+    }
+}
+
+@media (max-width: 768px){
+    .experience-cards_btn {
+        margin-top: 0px;
+    }
+    .card-carousel_logo {
+        width: 63.84px;
+        height: 39px;
+        padding: 13px 11px;
+    }
+    .card-carousel_logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .experience-cards_carousel {
+        margin-top: 40.2vw;
+    }
+
+    .msnry-block {
+        width: 100%;
+        padding-top: 24.6vw;
+        gap: 16px;
+    }
+    .experience_wrapper {
+        padding-bottom: 60px;
+    }
+    .first-screen_description {
+        width: 100%;
+    }
+
+    .games-box_heading {
+        font-size:28px;
+    }
+
+    .games-box_content {
+        gap: 10px;
+        height: auto;
+        padding: 0 16px 16px 16px;
+    }
+
+    .games-box_img {
+        height: 204px;
+    }
+
+    .games-box_text {
+        font-size: 16px;
+    }
+
+    .games {
+        padding-bottom: 60px;
+    }
+
+    .games-box:nth-child(2n) .games-box_img.sh-border.sh-bottom {
+        height: 204px;
+    }
+
+}
+
+@media (max-width: 560px){
+    .experience-cards_carousel {
+        margin-top: 40.2vw;
+        gap: 0;
+        webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(166, 166, 166, 1) 50%, rgba(0, 0, 0, 0) 80%);
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(166, 166, 166, 1) 50%, rgba(0, 0, 0, 0) 80%);
+    }
+
+    .msnry-block {
+        width: 100%;
+        padding-top: 33vw;
+        gap: 16px;
+    }
+    .power-wrapper:before {
+        width: 320%;
+        height: 120vw;
+        bottom: 30vw;
+        right: -100%;
+    }
+}
+
+@media (max-width: 420px){
+    .first-screen {
+        background-size: auto 100%;
+    }
+    .first-screen_wrapper {
+        padding-top: 90vw;
+    }
+}
+
+@media (max-width: 390px){}

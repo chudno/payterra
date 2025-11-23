@@ -1,0 +1,224 @@
+/* Lupio Thin */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Thin.eot');
+  src: url('../fonts/lupio/Lupio-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Thin.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Thin.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Thin.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Thin.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 100;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-ThinItalic.eot');
+  src: url('../fonts/lupio/Lupio-ThinItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-ThinItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-ThinItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-ThinItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-ThinItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio ExtraLight */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 200;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-ExtraLight.eot');
+  src: url('../fonts/lupio/Lupio-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-ExtraLight.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-ExtraLight.woff') format('woff'),
+  url('../fonts/lupio/Lupio-ExtraLight.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-ExtraLight.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 200;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-ExtraLightItalic.eot');
+  src: url('../fonts/lupio/Lupio-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-ExtraLightItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-ExtraLightItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-ExtraLightItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-ExtraLightItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio Light */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Light.eot');
+  src: url('../fonts/lupio/Lupio-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Light.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Light.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Light.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Light.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-LightItalic.eot');
+  src: url('../fonts/lupio/Lupio-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-LightItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-LightItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-LightItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-LightItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio Regular */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Regular.eot');
+  src: url('../fonts/lupio/Lupio-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Regular.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Regular.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Regular.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Regular.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-Italic.eot');
+  src: url('../fonts/lupio/Lupio-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Italic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Italic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Italic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Italic.svg#Lupio') format('svg');
+}
+
+/* Lupio Medium */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Medium.eot');
+  src: url('../fonts/lupio/Lupio-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Medium.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Medium.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Medium.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Medium.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 500;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-MediumItalic.eot');
+  src: url('../fonts/lupio/Lupio-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-MediumItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-MediumItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-MediumItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-MediumItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio SemiBold */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-SemiBold.eot');
+  src: url('../fonts/lupio/Lupio-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-SemiBold.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-SemiBold.woff') format('woff'),
+  url('../fonts/lupio/Lupio-SemiBold.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-SemiBold.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 600;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-SemiBoldItalic.eot');
+  src: url('../fonts/lupio/Lupio-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-SemiBoldItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-SemiBoldItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-SemiBoldItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-SemiBoldItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio Bold */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Bold.eot');
+  src: url('../fonts/lupio/Lupio-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Bold.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Bold.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Bold.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Bold.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-BoldItalic.eot');
+  src: url('../fonts/lupio/Lupio-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-BoldItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-BoldItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-BoldItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-BoldItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio ExtraBold */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-ExtraBold.eot');
+  src: url('../fonts/lupio/Lupio-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-ExtraBold.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-ExtraBold.woff') format('woff'),
+  url('../fonts/lupio/Lupio-ExtraBold.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-ExtraBold.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 800;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-ExtraBoldItalic.eot');
+  src: url('../fonts/lupio/Lupio-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-ExtraBoldItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-ExtraBoldItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-ExtraBoldItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-ExtraBoldItalic.svg#Lupio') format('svg');
+}
+
+/* Lupio Black */
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 900;
+  font-style: normal;
+  src: url('../fonts/lupio/Lupio-Black.eot');
+  src: url('../fonts/lupio/Lupio-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-Black.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-Black.woff') format('woff'),
+  url('../fonts/lupio/Lupio-Black.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-Black.svg#Lupio') format('svg');
+}
+
+@font-face {
+  font-family: 'Lupio';
+  font-weight: 900;
+  font-style: italic;
+  src: url('../fonts/lupio/Lupio-BlackItalic.eot');
+  src: url('../fonts/lupio/Lupio-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lupio/Lupio-BlackItalic.woff2') format('woff2'),
+  url('../fonts/lupio/Lupio-BlackItalic.woff') format('woff'),
+  url('../fonts/lupio/Lupio-BlackItalic.ttf') format('truetype'),
+  url('../fonts/lupio/Lupio-BlackItalic.svg#Lupio') format('svg');
+}
