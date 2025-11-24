@@ -282,31 +282,33 @@
         transform-origin: 50% 50%;
         transform:rotate(-45deg);
     }
-    .accent-btn .text {
-        font-size: 16px;
-    }
 
     .accent-btn .icon svg {
         width: 19px;
         height: 19px;
     }
 
+    .experience-cards_btn.accent-btn {
+
+    }
+
     .accent-btn {
         min-width: 155px;
     }
     .accent-btn .text {
-        padding: 7px 14px;
+        padding: 7px 14px 4px 14px;
         border-radius: 49px;
-        height: 27px;
+        height: 50px;
         font-size: 10px;
+        font-size: 16px;
     }
     .accent-btn .icon {
-        width: 27px;
-        height: 27px;
+        width: 50px;
+        height: 50px;
     }
 
     .accent-btn .icon svg {
-        width: 10px;
+        width: 19px;
     }
 
     footer {
@@ -356,6 +358,47 @@
     .font-text {
         font-size: 16px;
     }
+
+    .popup-input_wrapper {
+        width: 100%;
+    }
+
+    .accent-btn.popup-form_btn ,
+    .accent-btn.popup-form_btn .text,
+    .accent-btn.popup-form_btn .icon
+    {
+        height: 50px;
+    }
+
+    .accent-btn.popup-form_btn {
+        min-width: 252px
+    }
+
+    .accent-btn.popup-form_btn .icon svg {
+        width: 19px;
+    }
+
+    .accent-btn.popup-form_btn .text {
+        font-size: 16px;
+    }
+
+    .accent-btn.popup-form_btn .icon {
+        width: 50px;
+    }
+
+    .popup-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .popup-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 @media (max-width:360px){

@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<header>
+    <header>
     <div class="fix">
         <div class="header-wrapper">
             <a href="/" class="header-logo">
@@ -31,10 +31,10 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="api.html" class="current">API- Data</a>
+                        <a href="api.html">API- Data</a>
                     </li>
                     <li>
-                        <a href="gaming-solutions.html">Gaming Solutions</a>
+                        <a href="gaming-solutions.html" class="current">Gaming Solutions</a>
                     </li>
                 </ul>
             </nav>
@@ -84,33 +84,6 @@
                         <div class="hero-section_text">Monetize your gaming audience with a fast, flexible, and high-performance ecosystem. Deliver top-tier gaming products and services while keeping full control over revenue, payouts,
                             and user experience.</div>
                     </div>
-<!--                    <div class="hero-section_grid">-->
-<!--                        <div class="hero-section_box border-radius-s bg-gradient sh-border">-->
-<!--                            <div class="hero-section_block_circle">-->
-<!--                                <span></span>-->
-<!--                            </div>-->
-
-<!--                            <div class="hero-section_box-heading font-heading">Intelligent Fraud Defense</div>-->
-<!--                            <div class="hero-section_box-text font-text">Stay protected with advanced fraud filters built specifically for gaming transactions. Monitor activity in real time, eliminate bad actors, and reduce chargebacks without slowing down genuine players.</div>-->
-<!--                        </div>-->
-<!--                        <div class="hero-section_box border-radius-s bg-gradient sh-border">-->
-<!--                            <div class="hero-section_block_circle">-->
-<!--                                <span></span>-->
-<!--                            </div>-->
-
-<!--                            <div class="hero-section_box-heading font-heading">Global Instant Payments</div>-->
-<!--                            <div class="hero-section_box-text font-text">Accept fast, reliable payments in multiple currencies with automatic conversion.-->
-<!--                                    Ensure smooth processing, stable uptime, and instant delivery for players worldwide.</div>-->
-<!--                        </div>-->
-<!--                        <div class="hero-section_box border-radius-s bg-gradient sh-border">-->
-<!--                            <div class="hero-section_block_circle">-->
-<!--                                <span></span>-->
-<!--                            </div>-->
-
-<!--                            <div class="hero-section_box-heading font-heading">Simple API Integration</div>-->
-<!--                            <div class="hero-section_box-text font-text">Add powerful gaming payment features using  a lightweight, developer-friendly API. Launch faster with transparent documentation and ongoing support at any development stage.</div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -285,6 +258,73 @@
     </footer>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <!-- Popup -->
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-container">
+            <div class="popup-close" aria-label="Закрыть">
+                <span></span>
+            </div>
+            <div class="popup-content">
+                <h2>Contact Us</h2>
+                <form id="popup-form">
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="First Name" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Last Name" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Job title" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Work email" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Telegram" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Phone number" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company website" name="">
+                    </div>
+
+                    <div class="popup-textarea_wrapper">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comment" class="popup-input"></textarea>
+                    </div>
+
+                    <button class="accent-btn popup-form_btn">
+                        <span class="text">Send</span>
+                        <span class="icon">
+                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8H20M20 8L12.8222 15M20 8L12.8222 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Поп‑ап уведомления об успешной отправке -->
+    <div id="successOverlay" class="popup-overlay">
+        <div class="popup-container popup-success">
+            <button class="popup-close" aria-label="Закрыть">&times;</button>
+            <div class="popup-content">
+                <h2>Успешно!</h2>
+                <p>Ваша форма отправлена. Спасибо!</p>
+                <button class="btn btn-close-success">Закрыть</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

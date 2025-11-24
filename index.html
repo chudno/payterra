@@ -88,14 +88,14 @@
 
                         <div class="first-screen_description">A unified platform for API integrations, transaction processing,  and real–time analytics. Built for gaming, fintech, and modern digital products.</div>
 
-                        <a href="/" class="first-screen_btn accent-btn">
+                        <div class="first-screen_btn accent-btn">
                             <span class="text">Request Integration</span>
                             <span class="icon">
                                 <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 8H20M20 8L12.8222 15M20 8L12.8222 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </span>
-                        </a>
+                        </div>
 
                         <div class="first-screen_users">
 
@@ -348,6 +348,75 @@
     </footer>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <!-- Popup -->
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-container">
+            <div class="popup-close" aria-label="Закрыть">
+                <span></span>
+            </div>
+            <div class="popup-content">
+                <h2>Contact Us</h2>
+                <form id="popup-form">
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="First Name" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Last Name" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Job title" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Work email" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Telegram" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Phone number" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company website" name="">
+                    </div>
+
+                    <div class="popup-textarea_wrapper">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comment" class="popup-input"></textarea>
+                    </div>
+
+                    <button class="accent-btn popup-form_btn">
+                        <span class="text">Send</span>
+                        <span class="icon">
+                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8H20M20 8L12.8222 15M20 8L12.8222 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Поп‑ап уведомления об успешной отправке -->
+    <div id="successOverlay" class="popup-overlay show">
+        <div class="popup-container popup-success">
+            <div class="popup-close" aria-label="Закрыть">
+                <span></span>
+            </div>
+            <div class="popup-content">
+                <h2>Application submitted successfully</h2>
+                <div class="popup-text">We’ll be in touch with you soon</div>
+                <button class="btn btn-close-success">Close</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
