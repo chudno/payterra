@@ -330,6 +330,10 @@
         min-width: 39vw;
     }
 
+    .analytics-left_top h2 {
+        font-size: 42px;
+    }
+
 }
 
 @media (max-width: 640px){
