@@ -194,7 +194,7 @@
     .experience-cards_buttons {
         /*margin-top: 4.2vw;*/
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: -3vw;
     }
     .experience_wrapper {
         background-position: center -28vw;
@@ -271,6 +271,11 @@
         margin-top: 0px;
     }
 
+    .msnry {
+        padding-top: 0px;
+        margin-top: -60px;
+    }
+
 
     .experience-cards_carousel {
         /*margin-top: 40.2vw;*/
@@ -288,6 +293,8 @@
     }
     .experience_wrapper {
         padding-bottom: 60px;
+        width: calc(100% + 20px);
+        margin-left: -10px;
     }
     .first-screen_description {
         width: 100%;
@@ -330,7 +337,7 @@
         margin-top: 33vw;
     }
     .experience-cards_buttons {
-        margin-left: 5vw;
+        margin-left: -3vw;
     }
 
     .experience-cards_btn.accent-btn .text {
