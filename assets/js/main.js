@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Обработчики для основного поп‑апа
         //openPopupBtn.addEventListener('click', openPopup);
 
-    // Закрытие основного поп‑апа: крестик, оверлей, Esc
+    if( popupOverlay ) {
         document.querySelectorAll('#popupOverlay .popup-close').forEach(btn => {
             btn.addEventListener('click', closePopup);
         });
@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 closePopup();
             }
         });
+    }
 
     // Обработка отправки формы
     document.body.addEventListener('click', function(e) {
@@ -91,15 +92,15 @@ document.addEventListener('DOMContentLoaded', function() {
             openSuccessPopup();
         }
     });
-    //     popupForm.addEventListener('submit', function(e) {
-    //         e.preventDefault();
-    //
-    //         // Здесь можно добавить реальную отправку на сервер
-    //         // Для примера — имитируем успешную отправку
-    //
-    //         closePopup();      // Закрываем форму
-    //         openSuccessPopup(); // Открываем уведомление
-    //     });
+        // popupForm.addEventListener('submit', function(e) {
+        //     e.preventDefault();
+        //
+        //     // Здесь можно добавить реальную отправку на сервер
+        //     // Для примера — имитируем успешную отправку
+        //
+        //     closePopup();      // Закрываем форму
+        //     openSuccessPopup(); // Открываем уведомление
+        // });
 
     // Обработчики для поп‑апа успеха
 
@@ -115,11 +116,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
     // Закрытие по клику на оверлей
+    if( successOverlay ) {
         successOverlay.addEventListener('click', (e) => {
             if (e.target === successOverlay) {
                 closeSuccessPopup();
             }
         });
+    }
 
     // Закрытие по Esc
         document.addEventListener('keydown', (e) => {

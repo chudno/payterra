@@ -402,3 +402,22 @@
         font-size: 20px;
     }
 }
+
+@media (max-height: 750px){
+    #popupOverlay .popup-container {
+        overflow-y: scroll;
+    }
+
+    #popup-form {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .popup-content {
+        gap: 0px;
+    }
+
+    .popup-input {
+        height: 42px;
+    }
+}
