@@ -157,7 +157,7 @@
     position: relative;
     z-index: 0;
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding-bottom: 89px;
 }
 
@@ -192,6 +192,7 @@
             rgba(166, 166, 166, 1) 50%,
             rgba(0, 0, 0, 0) 100%
     );
+    margin-left: -210px;
 }
 
 /*.experience-cards_carousel:before {*/
@@ -220,6 +221,10 @@
 
 .experience-cards_btn {
     margin-top: 30px;
+}
+
+.experience-cards_buttons {
+    margin-left: -30px;
 }
 
 /*====================== Experience =======================*/

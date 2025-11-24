@@ -19,9 +19,6 @@ body {
     padding: 0 0;
     margin: 0 0;
     background: var(--bg-color);
-}
-
-body {
     overflow-x: hidden;
 }
 

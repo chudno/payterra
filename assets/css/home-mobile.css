@@ -20,6 +20,10 @@
         width: 49%;
         flex: 1 1 49%;
     }
+
+    .msnry-block{
+        width: 48%;
+    }
 }
 
 @media ( max-width: 1340px ){
@@ -179,19 +183,24 @@
     }
     #experience-cards {
         width: 120vw;
-        margin-left: -60vw;
+        margin-left: -10vw;
+        left: 0;
     }
     .experience-cards_carousel {
         margin-top: 36.2vw;
         gap: 0;
+        margin-left: -177px;
     }
     .experience-cards_buttons {
-        margin-top: 4.2vw;
+        /*margin-top: 4.2vw;*/
+        margin-top: 0px;
+        margin-left: 0px;
     }
     .experience_wrapper {
         background-position: center -28vw;
         background-size: auto 170%;
     }
+
     /*=========== Experience =============*/
 
     /*=========== Analytics =============*/
@@ -261,18 +270,15 @@
     .experience-cards_btn {
         margin-top: 0px;
     }
-    .card-carousel_logo {
-        width: 63.84px;
-        height: 39px;
-        padding: 13px 11px;
-    }
-    .card-carousel_logo img {
-        width: 100%;
-        height: 100%;
-    }
+
 
     .experience-cards_carousel {
-        margin-top: 40.2vw;
+        /*margin-top: 40.2vw;*/
+        margin-top: 36vw;
+    }
+
+    .experience-cards_buttons {
+        margin-top: 3vw;
     }
 
     .msnry-block {
@@ -313,11 +319,46 @@
         height: 204px;
     }
 
+    .experience-cards_btn.accent-btn {
+        min-width: 39vw;
+    }
+
+}
+
+@media (max-width: 640px){
+    .experience-cards_carousel {
+        margin-top: 33vw;
+    }
+    .experience-cards_buttons {
+        margin-left: 5vw;
+    }
+
+    .experience-cards_btn.accent-btn .text {
+        height: 27px;
+    }
+
+    .experience-cards_btn.accent-btn .icon {
+        width: 27px;
+        height: 27px;
+    }
+
+    .experience-cards_btn.accent-btn .text {
+        font-size: 10px;
+    }
+    .experience-cards_btn.accent-btn .icon svg {
+        width: 9px;
+    }
+
+    .experience-cards_btn.accent-btn {
+        min-width: 155px;
+    }
+
 }
 
 @media (max-width: 560px){
     .experience-cards_carousel {
         margin-top: 40.2vw;
+        margin-left: -10vw;
         gap: 0;
         webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(166, 166, 166, 1) 50%, rgba(0, 0, 0, 0) 80%);
         mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(166, 166, 166, 1) 50%, rgba(0, 0, 0, 0) 80%);
@@ -333,6 +374,15 @@
         height: 120vw;
         bottom: 30vw;
         right: -100%;
+    }
+    .card-carousel_logo {
+        width: 63.84px;
+        height: 39px;
+        padding: 13px 11px;
+    }
+    .card-carousel_logo img {
+        width: 100%;
+        height: 100%;
     }
 }
 

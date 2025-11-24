@@ -24,6 +24,10 @@
         width: 48%;
     }
 
+    .analytics-revenue_line {
+        width: 100%;
+    }
+
 }
 
 @media ( max-width: 1740px ){
@@ -141,11 +145,31 @@
         display: none;
     }
 
+    .analytics-api_chart-dataanalytics {
+        margin-right: 10%;
+    }
+
 }
 
 @media (max-width: 991px){
     .main-section_content h1 br {
         display: none;
+    }
+
+    .analytics-api_left {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 880px){
+    .analytics-api_chart-dataanalytics {
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 800px){
+    .analytics-api_wrapper {
+        padding: 31px 35px 29px 40px;
     }
 }
 
@@ -224,6 +248,27 @@
         gap: 0px;
     }
 
+    .analytics-api_chart-revenue {
+        width: 36.7vw;
+    }
+
+    .analytics-sales_revenue {
+        margin-top: 12px;
+    }
+
+    .analytics-sales_revenue,
+    .analytics-sales_revenue svg {
+        height: auto;
+    }
+
+    .analytics-sales_number {
+        font-size: 24px;
+    }
+
+    .analytics-sales_sign {
+        font-size: 7px;
+    }
+
     .analytics-api_chart-revenue,
     .analytics-api_chart-daily {
         margin-top: 3vw;
@@ -279,14 +324,67 @@
         padding-top: 33vw;
         gap: 16px;
     }
+
+    /*.main-section_icon-wrapper {*/
+    /*    margin-top: 92.5vw;*/
+    /*}*/
+}
+
+@media (max-width: 420px){
     .main-section {
         background: url(../img/api-bg-1-5x.jpg);
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: 0 0;
     }
+
+    .analytics-api_chart-dataanalytics {
+        margin-left: 3vw;
+    }
 }
 
-@media (max-width: 420px){}
+@media (max-width: 388px){
+    .analytics-api_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 20px;
+    }
 
-@media (max-width: 390px){}
+    .analytics-api_chart-sales,
+    .analytics-api_chart-dataanalytics,
+    .analytics-api_chart-revenue,
+    .analytics-api_chart-daily {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+        padding: 15px;
+    }
+
+    .analytics-sales_vector,
+    .analytics-sales_dataanalytics,
+    .analytics-sales_revenue {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .analytics-sales_dataanalytics {
+        margin-top: 20px;
+    }
+
+    .analytics-sales_vector svg,
+    .analytics-sales_dataanalytics svg,
+    .analytics-sales_revenue svg {
+        width: 100%;
+    }
+
+    .analytics-api_left .font-text {
+        font-size: 4vw;
+    }
+
+    .analytics-sales_sign {
+        font-size: 12px;
+    }
+
+}

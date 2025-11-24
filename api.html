@@ -218,14 +218,14 @@
                     </div>
 
                     <div class="analytics-api_btn">
-                        <a href="/" class="accent-btn analytics-api_btn">
+                        <div class="accent-btn analytics-api_btn">
                             <span class="text">Explore Analytics</span>
                             <span class="icon">
                                 <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1 8H20M20 8L12.8222 15M20 8L12.8222 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </span>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,6 +335,73 @@
 </footer>
 
 <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <!-- Popup -->
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-container">
+            <div class="popup-close" aria-label="Закрыть">
+                <span></span>
+            </div>
+            <div class="popup-content">
+                <h2>Contact Us</h2>
+                <form id="popup-form">
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="First Name" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Last Name" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Job title" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Work email" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Telegram" name="">
+                    </div>
+
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Phone number" name="">
+                    </div>
+                    <div class="popup-input_wrapper">
+                        <input type="text" class="popup-input" placeholder="Company website" name="">
+                    </div>
+
+                    <div class="popup-textarea_wrapper">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comment" class="popup-input"></textarea>
+                    </div>
+
+                    <button class="accent-btn popup-form_btn">
+                        <span class="text">Send</span>
+                        <span class="icon">
+                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 8H20M20 8L12.8222 15M20 8L12.8222 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Поп‑ап уведомления об успешной отправке -->
+    <div id="successOverlay" class="popup-overlay">
+        <div class="popup-container popup-success">
+            <button class="popup-close" aria-label="Закрыть">&times;</button>
+            <div class="popup-content">
+                <h2>Успешно!</h2>
+                <p>Ваша форма отправлена. Спасибо!</p>
+                <button class="btn btn-close-success">Закрыть</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
