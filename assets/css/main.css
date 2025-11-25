@@ -440,6 +440,10 @@ footer {
     width: calc(50% - 10px);
 }
 
+.popup-input_wrapper.full-input {
+    width: 100%;
+}
+
 .popup-input {
     width: 100%;
     height: 46px;
