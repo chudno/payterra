@@ -17,6 +17,11 @@
 
 @media (max-width:1620px){
 
+
+
+}
+
+@media (max-width: 1440px){
     .footer-top {
         flex: 1 100%;
         display: flex;
@@ -34,11 +39,6 @@
         max-width: 100%;
         min-width: 100%;
     }
-
-}
-
-@media (max-width: 1440px){
-
 }
 
 @media (min-width: 1200px) {
