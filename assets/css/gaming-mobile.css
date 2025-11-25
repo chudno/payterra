@@ -6,9 +6,38 @@
     .hero-section_grid {
         bottom: -250px;
     }
+
+    .gaming-box_img {
+        width: 616px;
+        height: 522px;
+    }
+
+    .gaming-box {
+        gap: 20px;
+        padding: 35px;
+    }
+
+    .gaming-box_content {
+        width: 608px;
+    }
+
+    .gaming-box_content-text,
+    .gaming-box_tags.width-610,
+    .gaming-box_text {
+        width: 100%;
+    }
+
+    .gaming-tag {
+        width: 143px;
+    }
+
 }
 
 @media (max-width:1620px){}
+
+@media (max-width: 1440px){
+
+}
 
 @media (min-width: 1200px) {}
 
@@ -104,6 +133,10 @@
     .hero-section_box {
         height: auto;
         padding-top: 150px;
+    }
+
+    .gaming-wrapper {
+        padding-top: 60px;
     }
 
     /*=============== Gaming First Screen ====================*/

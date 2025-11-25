@@ -1,7 +1,7 @@
 /*=================== Conditions ====================*/
 .conditions-banner {
     width: 100%;
-    background: url(../img/conditions-bg.jpg), linear-gradient(to right, var(--bg-color) 50%, var(--accent-color) 50% );
+    background: url(../img/text-bg.jpg), linear-gradient(to right, var(--bg-color) 50%, var(--accent-color) 50% );
     background-repeat: no-repeat;
     background-size:auto 100%;
     background-position: center center;

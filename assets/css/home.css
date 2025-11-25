@@ -171,6 +171,10 @@
     z-index: -1;
 }
 
+#experience-cards_mini {
+    display:none;
+}
+
 .experience-cards_carousel {
     width: auto;
     gap: 20px;

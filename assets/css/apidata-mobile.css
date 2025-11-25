@@ -1,28 +1,116 @@
 @media (max-width: 1800px){
-    .msnry-api_block:first-child,
-    .msnry-api_block:nth-child(3),
-    .msnry-api_block:nth-child(4){
-        margin-top: 0px;
-    }
+    /*.msnry-api_block:first-child,*/
+    /*.msnry-api_block:nth-child(3),*/
+    /*.msnry-api_block:nth-child(4){*/
+    /*    margin-top: 0px;*/
+    /*}*/
 
-    .msnry-api_block_heading {
-        font-size: 28px;
-    }
-    .msnry-api_block_text {
-        font-size: 16px;
-    }
+    /*.msnry-api_block_heading {*/
+    /*    font-size: 28px;*/
+    /*}*/
+    /*.msnry-api_block_text {*/
+    /*    font-size: 16px;*/
+    /*}*/
+
+    /*.msnry-api_block {*/
+    /*    width: 48%;*/
+    /*}*/
 
     .msnry-api_block {
-        width: 48%;
+        width: 426px;
+        height: 490px;
+        padding: 40px 30px 30px 30px;
     }
 
-    .developer-grid {
-        flex-wrap: wrap;
+    .analytics-api_wrapper {
+        padding: 40px;
+    }
+
+    .analytics-api_right {
+        width: 613px;
+    }
+
+    .analytics-api_right-text.font-text br {
+        display:none;
+    }
+
+    .analytics-api_left {
+        width: 609px;
+    }
+
+    .analytics-api_chart-sales {
+        margin-left: 20px;
+    }
+
+    .analytics-sales_vector,
+    .analytics-sales_vector svg {
+        width: 190px;
+        height: 143px;
+    }
+
+    .analytics-sales_heading.font-text {
+        font-size: 17px;
+    }
+
+    .analytics-sales_vector {
+        margin-top: 13px;
+    }
+
+    .analytics-api_chart-dataanalytics {
+        margin-left: 35px;
+    }
+
+    .analytics-api_chart-sales,
+    .analytics-api_chart-dataanalytics,
+    .analytics-api_chart-revenue,
+    .analytics-api_chart-daily {
+        padding: 17px 17px 14px 17px;
+    }
+
+    .analytics-api_chart-daily {
+        padding: 17px 17px 10px 17px;
+    }
+
+    .analytics-sales_dataanalytics {
+        margin-top: 12px;
+    }
+    .analytics-sales_dataanalytics,
+    .analytics-sales_dataanalytics svg {
+        width: 219px;
+        height: 155px;
+    }
+
+    .analytics-api_chart-revenue {
+        margin-top: 23px;
+    }
+
+    .analytics-api_chart-daily {
+        margin-top: 22px;
+        margin-left: 27px;
+    }
+
+    .analytics-api_wrapper {
+        align-items: flex-start;
+    }
+
+    .analytics-api_btn {
+        margin-top: 55px;
     }
 
     .developer-grid_item {
-        width: 48%;
+        width: 315px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
+    /*.developer-grid {*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+
+    /*.developer-grid_item {*/
+    /*    width: 48%;*/
+    /*}*/
 
     .analytics-revenue_line {
         width: 100%;
@@ -30,7 +118,34 @@
 
 }
 
-@media ( max-width: 1740px ){
+@media (max-width: 1440px){
+    .msnry-api_block {
+        width: 410px;
+    }
+
+    .msnry-api_wrapper {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1400px){
+    .msnry-api_block {
+        width: 48%;
+    }
+    .msnry-api_block:first-child,
+    .msnry-api_block:nth-child(3),
+    .msnry-api_block:nth-child(4) {
+        margin-top: 0px;
+    }
+}
+
+/*@media ( max-width: 1340px ){*/
+/*    .analytics-api_chart-dataanalytics {*/
+/*        margin-right: 50%;*/
+/*    }*/
+/*}*/
+
+@media ( max-width: 1360px ){
     .analytics-api_left {
         order: 2;
         width: 100%;
@@ -78,18 +193,20 @@
     .analytics-sales_revenue svg {
         width: 100%;
     }
-}
 
-@media ( max-width: 1340px ){
-    .analytics-api_chart-dataanalytics {
-        margin-right: 30%;
+    .developer-grid {
+        flex-wrap: wrap;
+    }
+
+    .developer-grid_item {
+        width: 48%;
     }
 }
 
 @media (max-width: 1260px) {
     /*=========== Masonry =============*/
     .msnry-api_block {
-        width: 46vw;
+        /*width: 46vw;*/
         height: auto;
         padding-top: 12vw;
     }
@@ -133,6 +250,9 @@
     .main-section_icon-text {
         width: 100%;
     }
+    .analytics-api_chart-dataanalytics {
+        margin-right: 30%;
+    }
 }
 
 @media (max-width: 1170px){
@@ -145,9 +265,9 @@
         display: none;
     }
 
-    .analytics-api_chart-dataanalytics {
-        margin-right: 10%;
-    }
+    /*.analytics-api_chart-dataanalytics {*/
+    /*    margin-right: 10%;*/
+    /*}*/
 
 }
 
@@ -163,7 +283,7 @@
 
 @media (max-width: 880px){
     .analytics-api_chart-dataanalytics {
-        margin-right: 0%;
+        margin-right: 24%;
     }
 }
 

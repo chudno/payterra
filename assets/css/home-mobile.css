@@ -2,27 +2,151 @@
     .experience_wrapper {
         background-position: center -5vw;
     }
-    .msnry-block:first-child, .msnry-block:nth-child(3),
-    .msnry-block:nth-child(4){
-        margin-top: 0px;
+    /*.msnry-block:first-child, .msnry-block:nth-child(3),*/
+    /*.msnry-block:nth-child(4){*/
+    /*    margin-top: 0px;*/
+    /*}*/
+
+    /*.msnry-block_heading {*/
+    /*    font-size: 28px;*/
+    /*}*/
+    /*.msnry-block_text {*/
+    /*    font-size: 16px;*/
+    /*}*/
+
+    .msnry-block {
+        width: 426px;
+        height: 490px;
+        padding: 40px 30px 30px 30px;
     }
 
-    .msnry-block_heading {
-        font-size: 28px;
+    .experience-cards_buttons {
+        margin-left: 0px;
     }
-    .msnry-block_text {
-        font-size: 16px;
-    }
+
     .games-grid {
         flex-wrap: wrap;
     }
-    .games-box {
-        width: 49%;
-        flex: 1 1 49%;
+
+    .games-box_img,
+    .games-box:nth-child(2n)
+    .games-box_img.sh-border.sh-bottom {
+        height: 236px;
     }
 
-    .msnry-block{
+    .games-box_content {
+        height: auto;
+    }
+
+    /*.games-box {*/
+    /*    width: 49%;*/
+    /*    flex: 1 1 49%;*/
+    /*}*/
+
+    .analytics-wrapper {
+        padding: 30px 30px 30px 40px;
+    }
+
+    .analytics-left_top h2 {
+        margin-top: 30px;
+    }
+
+    .analytics-left {
+        width: 606px;
+    }
+
+    .analytics-right {
+        width: 616px;
+    }
+
+    .analytics-text {
+        width: 100%;
+    }
+
+    .power-top h2 {
+        width: 771px;
+    }
+
+    .power-top_sign {
+        width: 423px;
+    }
+
+    .power-box {
+        padding: 30px 30px 44px 30px;
+    }
+
+
+    /*.msnry-block{*/
+    /*    width: 48%;*/
+    /*}*/
+}
+
+@media (max-width: 1440px){
+
+    .first-screen_content h1 {
+        width: 678px;
+        font-size: 78px;
+    }
+
+    .first-screen_description {
+        width: 648px;
+    }
+
+    .first-screen_text {
+        width: 465px;
+        font-size: 20px;
+    }
+
+    .first-screen_text br {
+        display: none;
+    }
+
+    .first-screen_wrapper {
+        padding-bottom: 67px;
+    }
+
+    #experience-cards {
+        display:none;
+    }
+
+    #experience-cards_mini {
+        width: 796px;
+        height: 576px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -398.5px;
+        z-index: -1;
+        display:block;
+    }
+
+    .msnry-block {
+        width: 410px;
+    }
+
+    .msnry-wrapper {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 1400px){
+    .msnry-block {
         width: 48%;
+    }
+    .msnry-block:first-child,
+    .msnry-block:nth-child(3),
+    .msnry-block:nth-child(4) {
+        margin-top: 0px;
+    }
+
+    .experience-cards_carousel {
+        margin-top: 300px;
+        /*margin-top: 22.2vw;*/
+    }
+
+    .experience-cards_buttons {
+        margin-left: 0px;
     }
 }
 
@@ -91,6 +215,7 @@
         transform-origin: 50% 50%;
         background-size: 120% 120%;
     }
+
 }
 
 @media (max-width: 1260px) {
@@ -187,14 +312,14 @@
         left: 0;
     }
     .experience-cards_carousel {
-        margin-top: 36.2vw;
+        /*margin-top: 36.2vw;*/
         gap: 0;
         margin-left: -177px;
     }
     .experience-cards_buttons {
         /*margin-top: 4.2vw;*/
         margin-top: 0px;
-        margin-left: -3vw;
+        /*margin-left: -3vw;*/
     }
     .experience_wrapper {
         background-position: center -28vw;
@@ -233,14 +358,22 @@
     /*=========== Power =============*/
 
     /*=========== Games =============*/
+    .games-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
     .games-box:nth-child(2n) .games-box_img.sh-border.sh-bottom {
         order: 1;
     }
-    .games-box_content {
-        padding-top: 0px;
-    }
+    /*.games-box:nth-child(2n) .games-box_img.sh-border.sh-bottom {*/
+    /*    order: 1;*/
+    /*}*/
+    /*.games-box_content {*/
+    /*    padding-top: 0px;*/
+    /*}*/
     /*=========== Games =============*/
-
 }
 
 @media (max-width: 991px){
@@ -279,7 +412,7 @@
 
     .experience-cards_carousel {
         /*margin-top: 40.2vw;*/
-        margin-top: 36vw;
+        /*margin-top: 36vw;*/
     }
 
     .experience-cards_buttons {
@@ -346,12 +479,18 @@
 }
 
 @media (max-width: 640px){
-    .experience-cards_carousel {
-        margin-top: 33vw;
-    }
-    .experience-cards_buttons {
-        margin-left: -3vw;
-    }
+
+
+}
+
+@media (max-width: 560px){
+
+    /*.experience-cards_carousel {*/
+    /*    margin-top: 33vw;*/
+    /*}*/
+    /*.experience-cards_buttons {*/
+    /*    margin-left: -3vw;*/
+    /*}*/
 
     .experience-cards_btn.accent-btn .text {
         height: 27px;
@@ -373,9 +512,6 @@
         min-width: 155px;
     }
 
-}
-
-@media (max-width: 560px){
     .experience-cards_carousel {
         margin-top: 40.2vw;
         margin-left: -10vw;
@@ -384,11 +520,91 @@
         mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(166, 166, 166, 1) 50%, rgba(0, 0, 0, 0) 80%);
     }
 
+    #experience-cards_mini {
+        width: 120%;
+        height: auto;
+        margin-left: -10%;
+        left: 0;
+    }
+
+    .experience-cards_carousel {
+        margin-top: 50vw;
+    }
+
+    .msnry {
+        margin-top: 0px;
+        padding-bottom: 14px;
+    }
+
     .msnry-block {
         width: 100%;
         padding-top: 33vw;
-        gap: 16px;
+        gap: 10px;
+        padding: 96px 16px 16px 16px;
     }
+
+    .msnry-block_circle {
+        top: 16px;
+        left: 16px;
+    }
+
+    .msnry-block_heading {
+        font-size: 28px;
+    }
+
+    .msnry-block_text {
+        font-size: 16px;
+    }
+
+    .analytics {
+        padding-top: 14px;
+        padding-bottom: 30px;
+    }
+
+    .analytics-left_top h2 {
+        margin-top: 0px;
+    }
+
+    .analytics-left_top {
+        gap: 10px;
+    }
+
+    .analytics-text {
+        font-size: 16px;
+    }
+
+    .power {
+        padding: 30px 0;
+    }
+
+    .power-top_sign {
+        font-size: 16px;
+    }
+
+    .power-top h2 br {
+        display:none;
+    }
+
+    .power-wrapper {
+        gap: 30px;
+    }
+
+    .power-box {
+        padding: 16px;
+    }
+
+    .power-box_heading {
+        font-size: 28px;
+    }
+
+    .power-box_content {
+        gap: 10px;
+    }
+
+    .power-box_text {
+        font-size: 16px;
+    }
+
     .power-wrapper:before {
         width: 320%;
         height: 120vw;
@@ -404,6 +620,23 @@
         width: 100%;
         height: 100%;
     }
+
+    .games {
+        padding-top: 30px;
+    }
+
+    .games-wrapper {
+        gap: 30px;
+    }
+
+    .games-grid {
+        gap: 10px;
+    }
+
+    .experience {
+        padding-bottom: 0px;
+    }
+
 }
 
 @media (max-width: 420px){

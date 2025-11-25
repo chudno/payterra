@@ -1,12 +1,17 @@
 @media (max-width:1800px){
     .fix {
-        max-width: 1740px;
+        max-width: 1440px;
         width: auto;
-        padding: 0 30px;
+        padding: 0 60px;
+        margin: 0 auto;
     }
 
     .footer-top {
         flex: 1 100%;
+    }
+
+    .header-menu_wrapper {
+        margin-left: 206px;
     }
 }
 
@@ -29,6 +34,10 @@
         max-width: 100%;
         min-width: 100%;
     }
+
+}
+
+@media (max-width: 1440px){
 
 }
 
