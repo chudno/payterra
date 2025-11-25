@@ -15,6 +15,11 @@
         width: 370px;
     }
 
+    .footer-email,
+    .footer-menu {
+        margin-left: 100px;
+    }
+
     .footer-address br {
         display: none;
     }
@@ -47,6 +52,11 @@
         width: 40%;
         max-width: 40%;
         min-width: 40%;
+    }
+
+    .footer-email,
+    .footer-menu {
+        margin-left: 0px;
     }
 }
 
